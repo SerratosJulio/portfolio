@@ -5,9 +5,10 @@ def links() -> rx.Component:
     
     return rx.vstack(
 
-        link_button("LinkedIn","https://linkedin.com"),
-        link_button("GitHub", "https://lgithub.com"),
-        link_button("Social Media","https://facebook.com")
+        link_button("LinkedIn","Professional experience", "https://linkedin.com"),
+        link_button("GitHub", "Portfolio of projects","https://lgithub.com"),
+        link_button("Social Media","Follow my day and day","https://facebook.com"),
+        width = "100%"
     
     
     )
