@@ -19,7 +19,7 @@ def link_button(title: str, body: str, url: str) -> rx.Component:
 
         ),
 
-        href = "linkedin.com",
+        href = "linkedin.com.mx",
         is_external = True,
         width = "100%",
         text_decoration = "none"
