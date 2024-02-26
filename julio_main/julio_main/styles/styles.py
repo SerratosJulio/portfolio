@@ -10,7 +10,7 @@ MAX_WIDTH = "600px"
 class Size(Enum):
     SMALL = "0.5em" 
     MEDIUN = "0.8em"
-    DEFAULT ="1em"
+    DEFAULT = "1em"
     BIG = "2em"
 
 
@@ -34,6 +34,13 @@ BASE_STYLE = {
 }
 
 
+
+title_style = dict (
+
+    size = "lg",
+    width = "100%",
+    padding_top =  Size.DEFAULT.value
+)
 
 button_title_style = dict (
     font_size = Size.DEFAULT.value
