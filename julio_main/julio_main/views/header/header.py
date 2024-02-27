@@ -17,7 +17,7 @@ def header() -> rx.Component:
                         ),
 
                         rx.hstack(
-                            link_icon("Instagram"),
+                            link_icon("Instagram.com"),
                             link_icon("Facebook")
                         ),
                         align_items = "start"
