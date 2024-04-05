@@ -9,7 +9,7 @@ MAX_WIDTH = "600px"
 
 class Size(Enum):
     SMALL = "0.5em" 
-    MEDIUN = "0.8em"
+    MEDIUM = "0.8em"
     DEFAULT = "1em"
     BIG = "2em"
 
@@ -18,7 +18,7 @@ class Size(Enum):
     
 
 BASE_STYLE = {
-    rx.Button: {
+    rx.button: {
         "width"  : "100%",
         "height" : "100%",
         "display": "block",
@@ -26,7 +26,7 @@ BASE_STYLE = {
         "border_radius":  Size.DEFAULT.value
         },
 
-    rx.Link: {
+    rx.link: {
         "text_decoration" : "none",
         "_hover" : {}
 
@@ -48,7 +48,7 @@ button_title_style = dict (
 
 
 button_body_style = dict (
-    font_size = Size.MEDIUN.value
+    font_size = Size.MEDIUM.value
 )
 
 
